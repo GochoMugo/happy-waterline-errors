@@ -5,6 +5,8 @@
 >
 > :construction: It is a bad idea to use this module! I made it to lessen my work! And it is *not* yet comprehensive! :construction:
 
+[![node](https://img.shields.io/node/v/happy-waterline-errors.svg?style=flat-square)](https://www.npmjs.com/package/happy-waterline-errors) [![npm](https://img.shields.io/npm/v/happy-waterline-errors.svg?style=flat-square)](https://www.npmjs.com/package/happy-waterline-errors) [![Travis](https://img.shields.io/travis/GochoMugo/happy-waterline-errors.svg?style=flat-square)](https://travis-ci.org/GochoMugo/happy-waterline-errors) [![Gemnasium](https://img.shields.io/gemnasium/GochoMugo/happy-waterline-errors.svg?style=flat-square)](https://gemnasium.com/GochoMugo/happy-waterline-errors) [![Coveralls](https://img.shields.io/coveralls/GochoMugo/happy-waterline-errors.svg?style=flat-square)](https://coveralls.io/github/GochoMugo/happy-waterline-errors?branch=master) 
+
 
 ## usage:
 
