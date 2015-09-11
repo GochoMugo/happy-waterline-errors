@@ -21,7 +21,8 @@ export default function(error, options={}) {
   }
 
   // make it traversable
-  error = error.toJSON();
+  // consider that the user may have already called .toJSON
+  error = error.toJSON ? error.toJSON() : error;
 
   // handling errors differently
   switch (error.error) {

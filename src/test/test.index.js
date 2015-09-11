@@ -10,4 +10,11 @@ describe("happy", function() {
   it("is an exported function", function() {
     should(happy).be.a.Function();
   });
+
+  it("allows errors without .toJSON function", function() {
+    const error = {};
+    should.doesNotThrow(function() {
+      happy(error);
+    });
+  });
 });
