@@ -1,13 +1,14 @@
 {
   "name": "happy-waterline-errors",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "i want to be happy handling waterline errors",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel -D -q src --out-dir .",
     "pretest": "npm run build",
     "test": "grunt test",
-    "test-coverage": "istanbul cover _mocha --report lcovonly -- -R spec test/test.*.js"
+    "test-coverage": "istanbul cover _mocha --report lcovonly -- -R spec test/test.*.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
