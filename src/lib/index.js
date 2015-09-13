@@ -4,6 +4,7 @@
 
 
 // own modules
+import forbidden from "./forbidden";
 import unkown from "./unknown";
 import validation from "./validation";
 
@@ -30,6 +31,8 @@ export default function(error, options={}) {
     return validation(error, options);
   case "E_UNKNOWN":
     return unkown(error, options);
+  case "E_FORBIDDEN":
+    return forbidden(error, options);
   // we can't handle the error, so just return it as it is
   default:
     return error;
