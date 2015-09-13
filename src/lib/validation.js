@@ -13,7 +13,8 @@ export default function(error, options) {
     const key = _.isFunction(options.key) ? options.key(attr) : attr;
     const value = error.invalidAttributes[attr];
     reports.push({
-      [key]: getRules(value),
+      field: key,
+      rules: getRules(value),
     });
   }
 
