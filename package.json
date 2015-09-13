@@ -1,6 +1,6 @@
 {
   "name": "happy-waterline-errors",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "i want to be happy handling waterline errors",
   "main": "lib/index.js",
   "scripts": {
